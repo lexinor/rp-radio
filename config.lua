@@ -1,8 +1,8 @@
 radioConfig = {
     Controls = {
         Activator = { -- Open/Close Radio
-            Name = "INPUT_REPLAY_START_STOP_RECORDING_SECONDARY", -- Control name
-            Key = 289, -- F2
+            Name = "INPUT_MULTIPLAYER_INFO", -- Control name
+            Key = 20, -- F2
         },
         Secondary = {
             Name = "INPUT_SPRINT",
@@ -40,6 +40,15 @@ radioConfig = {
     Frequency = {
         Private = { -- List of private frequencies
             [1] = true, -- Make 1 a private frequency
+            [2] = true, -- Make 1 a private frequency
+            [3] = true, -- Make 1 a private frequency
+            [4] = true, -- Make 1 a private frequency
+            [5] = true, -- Make 1 a private frequency
+            [6] = true, -- Make 1 a private frequency
+            [7] = true, -- Make 1 a private frequency
+            [8] = true, -- Make 1 a private frequency
+            [9] = true, -- Make 1 a private frequency
+            [10] = true, -- Make 1 a private frequency
         }, -- List of private frequencies
         Current = 1, -- Don't touch
         CurrentIndex = 1, -- Don't touch
@@ -48,5 +57,5 @@ radioConfig = {
         List = {}, -- Frequency list, Don't touch
         Access = {}, -- List of freqencies a player has access to
     },
-    AllowRadioWhenClosed = false -- Allows the radio to be used when not open (uses police radio animation) 
+    AllowRadioWhenClosed = true -- Allows the radio to be used when not open (uses police radio animation) 
 }
